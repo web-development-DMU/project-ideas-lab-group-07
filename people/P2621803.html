@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Param's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(131, 85, 231);
+            color: white;
+            font-family:'Poppins', sans-serif;
+            font-size: 18px;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 45px;
+            background-color: rgb(18, 18, 55);
+
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(99, 99, 141);
+            font-size: 1.04rem;
+        }
+        .left{
+            font-size: 1.9rem;
+        }
+        .first-section{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+            
+        }
+        .first-section > div{
+            width: 
+        }
+            
+        
+        .left-section{
+            font-size: 4.5rem;
+            
+        }
+        .right-section{
+            background-color:;
+        }
+        .right-section img{
+            width: 80%;
+            
+        }
+        .purple{
+            color: purple;
+            font-style: italic;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Param's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT ME</a></li>
+                    <li><a href="/">SERVICES</a></li>
+                    <li><a href="/">CONTACT ME</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="left-section">
+                Hi I'm <span class="purple">Param</span>
+                <div>and I am a <span id="element"></span> </div>
+                
+            </div>
+            <div class="right-section">
+                <img src="bg.png">
+            </div>
+
+        </section>
+    </main>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Software Developer', 'App Developer', 'Web Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</body>
+
+</html>
